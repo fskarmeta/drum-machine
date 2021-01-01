@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Audiowide", cursive;
+  color: white;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#display {
+  height: 5rem;
+  align-self: center;
+}
+
+#display-text {
+  text-align: center;
+  color: white;
+}
+
+#pads {
+  align-self: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.drum-pad {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pad-text {
+  font-size: 5em;
+}
+
+.drum-pad:hover {
+  background-color: rgba(251, 255, 0, 0.755);
+  color: black;
+}
+
+.on {
+  background-color: rgba(251, 255, 0, 0.755);
+  color: black;
+}
